@@ -3,9 +3,22 @@ import { getUsers, createUser, getUserById, deleteUser, updateUser } from '../Co
 
 const router = express.Router();
 
+const test = (req, res, next) => {
+
+    console.log(req.body);
+    // authentication
+    // get authorization from request header (JWT)
+    // decode token
+    // if (token == invalid) {
+    //   return 401   
+    // }
+    // next();
+    next();
+}
+
 router.get('/', getUsers);
 
-router.post('/', createUser);
+router.post('/', test, createUser);
 
 router.get('/:id', getUserById);
 
