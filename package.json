@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_practice",
+  "version": "1.0.0",
+  "description": "Building Web Applications with Node.js and Express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contreras-jonnigel/nodejs_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/contreras-jonnigel/nodejs_practice/issues"
+  },
+  "homepage": "https://github.com/contreras-jonnigel/nodejs_practice#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
