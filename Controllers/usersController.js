@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 let users = []
 
-export const getUsers = async (req, res) => {
+export const getUsers = async (req, res, next) => {
 
     try {   
         return res.json(users);
